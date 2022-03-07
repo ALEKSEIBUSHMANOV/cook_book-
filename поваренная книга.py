@@ -41,7 +41,7 @@ def get_shop_list_by_dishes(dishes, person_count):
     return cook_dict
 
 
-print(get_shop_list_by_dishes({'Омлет', 'Фахитос', 'Запеченный картофель'}, 4))
+print(get_shop_list_by_dishes(['Омлет', 'Фахитос', 'Омлет'], 4))
 
 
 
